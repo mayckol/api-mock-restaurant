@@ -1,0 +1,12 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server -H 0.0.0.0 -p 3003 -w db.json"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
